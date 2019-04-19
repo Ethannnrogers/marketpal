@@ -212,7 +212,7 @@ $(window).scroll(function() {
         console.log("in view");
         $.wait( function(){
              $(".pricing-box").addClass("flip-in-hor-bottom");
-            }, 1);
+            }, 1 );
         
     } else {
         console.log("not in view");
